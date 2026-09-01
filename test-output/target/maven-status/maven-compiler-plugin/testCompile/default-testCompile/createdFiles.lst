@@ -1,0 +1,9 @@
+com\automationexercices\tests\ui\ProductsDetailsTest.class
+com\automationexercices\tests\ui\ProductsTest.class
+com\automationexercices\tests\ui\CartTest.class
+com\automationexercices\tests\ui\CheckOutTest.class
+com\automationexercices\tests\BaseTest.class
+com\automationexercices\tests\api\RegisterTestAPI.class
+com\automationexercices\tests\ui\PaymentTest.class
+com\automationexercices\tests\ui\LoginTest.class
+com\automationexercices\tests\ui\RegisterTest.class

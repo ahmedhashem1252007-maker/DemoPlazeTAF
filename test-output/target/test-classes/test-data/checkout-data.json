@@ -1,0 +1,34 @@
+{
+  "email": "automation_",
+  "name": "Automation_Test",
+  "titleMale": "Mr",
+  "titleFemale": "Mrs",
+  "password": "P@ssw0rd",
+  "day": "12",
+  "month": "May",
+  "year": "2007",
+  "firstName": "Automation_Firstname",
+  "lastName": "Automation_Lastname",
+  "companyName": "Automation_Company",
+  "address1": "Automation_Address1",
+  "address2": "Automation_Address2",
+  "country": "United States",
+  "state": "Automation_State",
+  "city": "Automation_City",
+  "zipCode": "12345",
+  "mobileNumber": "1234567890",
+  "Product":
+  {
+    "name": "Blue Top",
+    "price": "Rs. 500",
+    "quantity": "1",
+    "total": "Rs. 500"
+  },
+  "messages" : {
+    "error": "Email Address already exist!",
+    "success": "Account Created!",
+    "review": "Thank you for your review.",
+    "cartAdded": "Your product has been added to cart."
+
+  }
+}

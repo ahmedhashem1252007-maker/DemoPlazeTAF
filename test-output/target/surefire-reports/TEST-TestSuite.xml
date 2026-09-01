@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="300.825" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="appender.stdout.name" value="consoleAppender"/>
+    <property name="java.specification.version" value="21"/>
+    <property name="rootLogger.appenderRef.stdout.ref" value="consoleAppender"/>
+    <property name="remoteHost" value="localhost"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="appender.file.layout.disableAnsi" value="false"/>
+    <property name="executionType" value="Local"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ah032\IdeaProjects\DemoPlazeTAF\test-output\target\test-classes;C:\Users\ah032\IdeaProjects\DemoPlazeTAF\test-output\target\classes;C:\Users\ah032\.m2\repository\io\qameta\allure\allure-plugin-api\2.46.0\allure-plugin-api-2.46.0.jar;C:\Users\ah032\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.22.2\jackson-databind-2.22.2.jar;C:\Users\ah032\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.22\jackson-annotations-2.22.jar;C:\Users\ah032\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.22.2\jackson-core-2.22.2.jar;C:\Users\ah032\.m2\repository\org\slf4j\slf4j-api\2.0.18\slf4j-api-2.0.18.jar;C:\Users\ah032\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.22.2\jackson-module-jaxb-annotations-2.22.2.jar;C:\Users\ah032\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\ah032\.m2\repository\com\opencsv\opencsv\5.12.0\opencsv-5.12.0.jar;C:\Users\ah032\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\ah032\.m2\repository\org\apache\commons\commons-text\1.13.1\commons-text-1.13.1.jar;C:\Users\ah032\.m2\repository\commons-beanutils\commons-beanutils\1.11.0\commons-beanutils-1.11.0.jar;C:\Users\ah032\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\ah032\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark\0.62.2\flexmark-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-ast\0.62.2\flexmark-util-ast-0.62.2.jar;C:\Users\ah032\.m2\repository\org\jetbrains\annotations\15.0\annotations-15.0.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-builder\0.62.2\flexmark-util-builder-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-collection\0.62.2\flexmark-util-collection-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-data\0.62.2\flexmark-util-data-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-dependency\0.62.2\flexmark-util-dependency-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-format\0.62.2\flexmark-util-format-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-html\0.62.2\flexmark-util-html-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-misc\0.62.2\flexmark-util-misc-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-sequence\0.62.2\flexmark-util-sequence-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-visitor\0.62.2\flexmark-util-visitor-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.62.2\flexmark-ext-tables-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util\0.62.2\flexmark-util-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-options\0.62.2\flexmark-util-options-0.62.2.jar;C:\Users\ah032\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\ah032\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\ah032\.m2\repository\org\freemarker\freemarker\2.3.34\freemarker-2.3.34.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-java\4.47.0\selenium-java-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-api\4.47.0\selenium-api-4.47.0.jar;C:\Users\ah032\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.47.0\selenium-chrome-driver-4.47.0.jar;C:\Users\ah032\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.47.0\selenium-chromium-driver-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-json\4.47.0\selenium-json-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.47.0\selenium-manager-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.47.0\selenium-devtools-latest-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v149\4.47.0\selenium-devtools-v149-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v150\4.47.0\selenium-devtools-v150-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v151\4.47.0\selenium-devtools-v151-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.47.0\selenium-edge-driver-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.47.0\selenium-firefox-driver-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-http\4.47.0\selenium-http-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.47.0\selenium-ie-driver-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.47.0\selenium-remote-driver-4.47.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-api\1.65.0\opentelemetry-api-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-context\1.65.0\opentelemetry-context-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-common\1.65.0\opentelemetry-common-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.65.0\opentelemetry-exporter-logging-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.65.0\opentelemetry-sdk-common-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.65.0\opentelemetry-sdk-extension-autoconfigure-spi-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.65.0\opentelemetry-sdk-extension-autoconfigure-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.65.0\opentelemetry-sdk-trace-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.65.0\opentelemetry-sdk-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.65.0\opentelemetry-sdk-metrics-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.65.0\opentelemetry-sdk-logs-1.65.0.jar;C:\Users\ah032\.m2\repository\net\bytebuddy\byte-buddy\1.18.11\byte-buddy-1.18.11.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-os\4.47.0\selenium-os-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.47.0\selenium-safari-driver-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-support\4.47.0\selenium-support-4.47.0.jar;C:\Users\ah032\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\ah032\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\ah032\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ah032\.m2\repository\org\apache\logging\log4j\log4j-core\2.26.1\log4j-core-2.26.1.jar;C:\Users\ah032\.m2\repository\org\apache\logging\log4j\log4j-api\2.26.1\log4j-api-2.26.1.jar;C:\Users\ah032\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.26.1\log4j-slf4j2-impl-2.26.1.jar;C:\Users\ah032\.m2\repository\commons-io\commons-io\2.22.0\commons-io-2.22.0.jar;C:\Users\ah032\.m2\repository\io\qameta\allure\allure-testng\2.35.4\allure-testng-2.35.4.jar;C:\Users\ah032\.m2\repository\io\qameta\allure\allure-java-commons\2.35.4\allure-java-commons-2.35.4.jar;C:\Users\ah032\.m2\repository\io\qameta\allure\allure-model\2.35.4\allure-model-2.35.4.jar;C:\Users\ah032\.m2\repository\io\qameta\allure\allure-test-filter\2.35.4\allure-test-filter-2.35.4.jar;C:\Users\ah032\.m2\repository\org\aspectj\aspectjweaver\1.9.25\aspectjweaver-1.9.25.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-all-deps\3.3.1\jave-all-deps-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-core\3.3.1\jave-core-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-nativebin-win32\3.3.1\jave-nativebin-win32-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-nativebin-win64\3.3.1\jave-nativebin-win64-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-nativebin-linux32\3.3.1\jave-nativebin-linux32-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-nativebin-linux64\3.3.1\jave-nativebin-linux64-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-nativebin-osx64\3.3.1\jave-nativebin-osx64-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-nativebin-osxm1\3.3.1\jave-nativebin-osxm1-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-nativebin-linux-arm32\3.3.1\jave-nativebin-linux-arm32-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-nativebin-linux-arm64\3.3.1\jave-nativebin-linux-arm64-3.3.1.jar;C:\Users\ah032\.m2\repository\com\automation-remarks\video-recorder-testng\2.0\video-recorder-testng-2.0.jar;C:\Users\ah032\.m2\repository\com\automation-remarks\video-recorder-core\2.0\video-recorder-core-2.0.jar;C:\Users\ah032\.m2\repository\org\aeonbits\owner\owner-java8\1.0.10\owner-java8-1.0.10.jar;C:\Users\ah032\.m2\repository\org\aeonbits\owner\owner\1.0.10\owner-1.0.10.jar;C:\Users\ah032\.m2\repository\org\zeroturnaround\zt-exec\1.10\zt-exec-1.10.jar;C:\Users\ah032\.m2\repository\org\awaitility\awaitility\3.1.6\awaitility-3.1.6.jar;C:\Users\ah032\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\ah032\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\ah032\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\ah032\.m2\repository\org\apache\httpcomponents\httpclient\4.5.7\httpclient-4.5.7.jar;C:\Users\ah032\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\ah032\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ah032\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ah032\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\ah032\.m2\repository\com\github\automatedowl\allure-environment-writer\1.0.0\allure-environment-writer-1.0.0.jar;C:\Users\ah032\.m2\repository\com\google\guava\guava\27.0-jre\guava-27.0-jre.jar;C:\Users\ah032\.m2\repository\com\google\guava\failureaccess\1.0\failureaccess-1.0.jar;C:\Users\ah032\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ah032\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ah032\.m2\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\Users\ah032\.m2\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\ah032\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ah032\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\ah032\.m2\repository\org\fusesource\jansi\jansi\2.4.3\jansi-2.4.3.jar;C:\Users\ah032\.m2\repository\org\jsoup\jsoup\1.23.1\jsoup-1.23.1.jar;C:\Users\ah032\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\ah032\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\ah032\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\ah032\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\ah032\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\ah032\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\ah032\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\ah032\.m2\repository\io\rest-assured\rest-assured\5.5.1\rest-assured-5.5.1.jar;C:\Users\ah032\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\ah032\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\ah032\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ah032\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ah032\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ah032\.m2\repository\io\rest-assured\json-path\5.5.1\json-path-5.5.1.jar;C:\Users\ah032\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\ah032\.m2\repository\io\rest-assured\rest-assured-common\5.5.1\rest-assured-common-5.5.1.jar;C:\Users\ah032\.m2\repository\io\rest-assured\xml-path\5.5.1\xml-path-5.5.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="appender.stdout.filter.threshold.level" value="debug"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\ah032\AppData\Local\Temp\surefire15177741851662441853\surefirebooter-20260901152757701_3.jar C:\Users\ah032\AppData\Local\Temp\surefire15177741851662441853 2026-09-01T15-27-57_560-jvmRun1 surefire-20260901152757701_1tmp surefire_0-20260901152757701_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ah032\IdeaProjects\DemoPlazeTAF\test-output\target\test-classes;C:\Users\ah032\IdeaProjects\DemoPlazeTAF\test-output\target\classes;C:\Users\ah032\.m2\repository\io\qameta\allure\allure-plugin-api\2.46.0\allure-plugin-api-2.46.0.jar;C:\Users\ah032\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.22.2\jackson-databind-2.22.2.jar;C:\Users\ah032\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.22\jackson-annotations-2.22.jar;C:\Users\ah032\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.22.2\jackson-core-2.22.2.jar;C:\Users\ah032\.m2\repository\org\slf4j\slf4j-api\2.0.18\slf4j-api-2.0.18.jar;C:\Users\ah032\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.22.2\jackson-module-jaxb-annotations-2.22.2.jar;C:\Users\ah032\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\ah032\.m2\repository\com\opencsv\opencsv\5.12.0\opencsv-5.12.0.jar;C:\Users\ah032\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\ah032\.m2\repository\org\apache\commons\commons-text\1.13.1\commons-text-1.13.1.jar;C:\Users\ah032\.m2\repository\commons-beanutils\commons-beanutils\1.11.0\commons-beanutils-1.11.0.jar;C:\Users\ah032\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\ah032\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark\0.62.2\flexmark-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-ast\0.62.2\flexmark-util-ast-0.62.2.jar;C:\Users\ah032\.m2\repository\org\jetbrains\annotations\15.0\annotations-15.0.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-builder\0.62.2\flexmark-util-builder-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-collection\0.62.2\flexmark-util-collection-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-data\0.62.2\flexmark-util-data-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-dependency\0.62.2\flexmark-util-dependency-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-format\0.62.2\flexmark-util-format-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-html\0.62.2\flexmark-util-html-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-misc\0.62.2\flexmark-util-misc-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-sequence\0.62.2\flexmark-util-sequence-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-visitor\0.62.2\flexmark-util-visitor-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.62.2\flexmark-ext-tables-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util\0.62.2\flexmark-util-0.62.2.jar;C:\Users\ah032\.m2\repository\com\vladsch\flexmark\flexmark-util-options\0.62.2\flexmark-util-options-0.62.2.jar;C:\Users\ah032\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\ah032\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\ah032\.m2\repository\org\freemarker\freemarker\2.3.34\freemarker-2.3.34.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-java\4.47.0\selenium-java-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-api\4.47.0\selenium-api-4.47.0.jar;C:\Users\ah032\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.47.0\selenium-chrome-driver-4.47.0.jar;C:\Users\ah032\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.47.0\selenium-chromium-driver-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-json\4.47.0\selenium-json-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.47.0\selenium-manager-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.47.0\selenium-devtools-latest-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v149\4.47.0\selenium-devtools-v149-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v150\4.47.0\selenium-devtools-v150-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v151\4.47.0\selenium-devtools-v151-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.47.0\selenium-edge-driver-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.47.0\selenium-firefox-driver-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-http\4.47.0\selenium-http-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.47.0\selenium-ie-driver-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.47.0\selenium-remote-driver-4.47.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-api\1.65.0\opentelemetry-api-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-context\1.65.0\opentelemetry-context-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-common\1.65.0\opentelemetry-common-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.65.0\opentelemetry-exporter-logging-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.65.0\opentelemetry-sdk-common-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.65.0\opentelemetry-sdk-extension-autoconfigure-spi-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.65.0\opentelemetry-sdk-extension-autoconfigure-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.65.0\opentelemetry-sdk-trace-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.65.0\opentelemetry-sdk-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.65.0\opentelemetry-sdk-metrics-1.65.0.jar;C:\Users\ah032\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.65.0\opentelemetry-sdk-logs-1.65.0.jar;C:\Users\ah032\.m2\repository\net\bytebuddy\byte-buddy\1.18.11\byte-buddy-1.18.11.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-os\4.47.0\selenium-os-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.47.0\selenium-safari-driver-4.47.0.jar;C:\Users\ah032\.m2\repository\org\seleniumhq\selenium\selenium-support\4.47.0\selenium-support-4.47.0.jar;C:\Users\ah032\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\ah032\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\ah032\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ah032\.m2\repository\org\apache\logging\log4j\log4j-core\2.26.1\log4j-core-2.26.1.jar;C:\Users\ah032\.m2\repository\org\apache\logging\log4j\log4j-api\2.26.1\log4j-api-2.26.1.jar;C:\Users\ah032\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.26.1\log4j-slf4j2-impl-2.26.1.jar;C:\Users\ah032\.m2\repository\commons-io\commons-io\2.22.0\commons-io-2.22.0.jar;C:\Users\ah032\.m2\repository\io\qameta\allure\allure-testng\2.35.4\allure-testng-2.35.4.jar;C:\Users\ah032\.m2\repository\io\qameta\allure\allure-java-commons\2.35.4\allure-java-commons-2.35.4.jar;C:\Users\ah032\.m2\repository\io\qameta\allure\allure-model\2.35.4\allure-model-2.35.4.jar;C:\Users\ah032\.m2\repository\io\qameta\allure\allure-test-filter\2.35.4\allure-test-filter-2.35.4.jar;C:\Users\ah032\.m2\repository\org\aspectj\aspectjweaver\1.9.25\aspectjweaver-1.9.25.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-all-deps\3.3.1\jave-all-deps-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-core\3.3.1\jave-core-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-nativebin-win32\3.3.1\jave-nativebin-win32-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-nativebin-win64\3.3.1\jave-nativebin-win64-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-nativebin-linux32\3.3.1\jave-nativebin-linux32-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-nativebin-linux64\3.3.1\jave-nativebin-linux64-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-nativebin-osx64\3.3.1\jave-nativebin-osx64-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-nativebin-osxm1\3.3.1\jave-nativebin-osxm1-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-nativebin-linux-arm32\3.3.1\jave-nativebin-linux-arm32-3.3.1.jar;C:\Users\ah032\.m2\repository\ws\schild\jave-nativebin-linux-arm64\3.3.1\jave-nativebin-linux-arm64-3.3.1.jar;C:\Users\ah032\.m2\repository\com\automation-remarks\video-recorder-testng\2.0\video-recorder-testng-2.0.jar;C:\Users\ah032\.m2\repository\com\automation-remarks\video-recorder-core\2.0\video-recorder-core-2.0.jar;C:\Users\ah032\.m2\repository\org\aeonbits\owner\owner-java8\1.0.10\owner-java8-1.0.10.jar;C:\Users\ah032\.m2\repository\org\aeonbits\owner\owner\1.0.10\owner-1.0.10.jar;C:\Users\ah032\.m2\repository\org\zeroturnaround\zt-exec\1.10\zt-exec-1.10.jar;C:\Users\ah032\.m2\repository\org\awaitility\awaitility\3.1.6\awaitility-3.1.6.jar;C:\Users\ah032\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\ah032\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\ah032\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\ah032\.m2\repository\org\apache\httpcomponents\httpclient\4.5.7\httpclient-4.5.7.jar;C:\Users\ah032\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\ah032\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ah032\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ah032\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\ah032\.m2\repository\com\github\automatedowl\allure-environment-writer\1.0.0\allure-environment-writer-1.0.0.jar;C:\Users\ah032\.m2\repository\com\google\guava\guava\27.0-jre\guava-27.0-jre.jar;C:\Users\ah032\.m2\repository\com\google\guava\failureaccess\1.0\failureaccess-1.0.jar;C:\Users\ah032\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ah032\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ah032\.m2\repository\org\checkerframework\checker-qual\2.5.2\checker-qual-2.5.2.jar;C:\Users\ah032\.m2\repository\com\google\errorprone\error_prone_annotations\2.2.0\error_prone_annotations-2.2.0.jar;C:\Users\ah032\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ah032\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.17\animal-sniffer-annotations-1.17.jar;C:\Users\ah032\.m2\repository\org\fusesource\jansi\jansi\2.4.3\jansi-2.4.3.jar;C:\Users\ah032\.m2\repository\org\jsoup\jsoup\1.23.1\jsoup-1.23.1.jar;C:\Users\ah032\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\ah032\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\ah032\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\ah032\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\ah032\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\ah032\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\ah032\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\ah032\.m2\repository\io\rest-assured\rest-assured\5.5.1\rest-assured-5.5.1.jar;C:\Users\ah032\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\ah032\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\ah032\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ah032\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ah032\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ah032\.m2\repository\io\rest-assured\json-path\5.5.1\json-path-5.5.1.jar;C:\Users\ah032\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\ah032\.m2\repository\io\rest-assured\rest-assured-common\5.5.1\rest-assured-common-5.5.1.jar;C:\Users\ah032\.m2\repository\io\rest-assured\xml-path\5.5.1\xml-path-5.5.1.jar;"/>
+    <property name="allure.results.directory" value="test-output/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ah032"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.11"/>
+    <property name="basedir" value="C:\Users\ah032\IdeaProjects\DemoPlazeTAF"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="recordTests" value="false"/>
+    <property name="appender.file.layout.pattern" value="[%p] - [%d{dd-MM-yyyy HH:mm:ss}] [%t] [%c] - %msg%n"/>
+    <property name="appender.file.name" value="fileAppender"/>
+    <property name="surefire.real.class.path" value="C:\Users\ah032\AppData\Local\Temp\surefire15177741851662441853\surefirebooter-20260901152757701_3.jar"/>
+    <property name="dbURL" value=""/>
+    <property name="baseURlWeb" value="https://www.automationexercise.com/"/>
+    <property name="rootLogger" value="debug, consoleAppender, fileAppender"/>
+    <property name="user.script" value=""/>
+    <property name="OpenAllReportAfterExecution" value="true"/>
+    <property name="appender.file.layout.type" value="PatternLayout"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.11+9-LTS-211"/>
+    <property name="appender.file.fileName" value="${basePath}/logs.log"/>
+    <property name="user.name" value="ah032"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="property.basePath" value="test-output/logs"/>
+    <property name="rootLogger.appenderRef.file.ref" value="fileAppender"/>
+    <property name="os.version" value="10.0"/>
+    <property name="browserType" value="edge"/>
+    <property name="baseUrlApi" value="https://automationexercise.com/api/"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="appender.stdout.filter.threshold.type" value="ThresholdFilter"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="sun.net.http.allowRestrictedHeaders" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="appender.file.filter.threshold.type" value="ThresholdFilter"/>
+    <property name="localRepository" value="C:\Users\ah032\.m2\repository"/>
+    <property name="dbPassWord" value=""/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ah032\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.11"/>
+    <property name="user.dir" value="C:\Users\ah032\IdeaProjects\DemoPlazeTAF"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="remotePort" value="4444"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="appender.file.type" value="File"/>
+    <property name="appender.stdout.layout.disableAnsi" value="false"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="appender.stdout.layout.pattern" value="%highlight{[%p] - [%d{dd-MM-yyyy HH:mm:ss}] [%t] [%c] - %msg}{FATAL=red, ERROR=red, WARN=yellow, INFO=blue, DEBUG=green bold, TRACE=blue}%n"/>
+    <property name="appender.file.filter.threshold.level" value="debug"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="appender.stdout.type" value="Console"/>
+    <property name="DEFAULT_WAIT" value="10"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;D:\Some Files\apache-maven-3.9.16-bin\apache-maven-3.9.16\bin;C:\Users\ah032\apache-maven-3.9.16-bin\apache-maven-3.9.16\bin;C:\Users\ah032\.m2\repository\Allure\allure-2.45.0\allure-2.45.0\bin;C:\Users\ah032\AppData\Local\Microsoft\WindowsApps;C:\Users\ah032\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ah032\AppData\Roaming\npm;C:\Users\ah032\Downloads\winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-14.0.0-r7\mingw64\bin;C:\Users\ah032\AppData\Local\Programs\Ollama;C:\Users\ah032\IntelliJ IDEA 2026.1.3\bin;C:\Users\ah032\AppData\Local\GitHubDesktop\bin;C:\Users\ah032\AppData\Local\Kingsoft\WPS Office\12.1.0.27458\clitool;C:\Users\ah032\AppData\Local\github-copilot\jetbrains-terminal\copilot-cli-shim\v1;."/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vm.version" value="21.0.11+9-LTS-211"/>
+    <property name="dbUSer" value=""/>
+    <property name="appender.stdout.layout.type" value="PatternLayout"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+    <property name="video.folder" value="test-output/recordings/"/>
+  </properties>
+  <testcase name="validSignUpTC" classname="com.automationexercices.tests.ui.RegisterTest" time="25.909">
+    <system-out><![CDATA[&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:01] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\ah032\IdeaProjects\DemoPlazeTAF\Test Runner\RegressionSuite.xml"&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:02] [main] [com.automationexercices.listeners.TestNGListeners] - Test Execution started&amp#27;[m
+&amp#27;[31m[ERROR] - [01-09-2026 15:28:02] [main] [com.automationexercices.FileUtils] - Field to force delete directory: C:\Users\ah032\IdeaProjects\DemoPlazeTAF\test-output\logs\logs.log Cannot delete file: C:\Users\ah032\IdeaProjects\DemoPlazeTAF\test-output\logs\logs.log&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:02] [main] [com.automationexercices.listeners.TestNGListeners] - Directories cleaned&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:02] [main] [com.automationexercices.FileUtils] - Directory created: C:\Users\ah032\IdeaProjects\DemoPlazeTAF/test-output/recordings/&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:02] [main] [com.automationexercices.listeners.TestNGListeners] - Directories created&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:02] [main] [com.automationexercices.listeners.TestNGListeners] - Properties loaded&amp#27;[m
+Allure environment data saved.
+&amp#27;[34m[INFO] - [01-09-2026 15:28:02] [main] [com.automationexercices.utils.report.AllureEnvironmentManager] - Allure environment variables set.&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:04] [main] [com.automationexercices.utils.report.AllureBinaryManager] - Allure binaries already exist.&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:04] [main] [com.automationexercices.listeners.TestNGListeners] - Allure environment set&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:06] [main] [com.automationexercices.drivers.GUIDriver] - Initializing driver for browser: edge&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:06] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser;EDGE&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:17] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com/&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:27] [main] [com.automationexercices.utils.Actions.BrowserActions] - No extension tab opened, continuing test...&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:27] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case validSignUpTC started&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:28] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com//login&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:28] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:30] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.cssSelector: [data-qa="signup-name"]&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:30] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:30] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.cssSelector: [data-qa="signup-email"]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:30] [main] [com.automationexercices.utils.Actions.ElementActions] - initialLocation: (643, 404)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:30] [main] [com.automationexercices.utils.Actions.ElementActions] - finalLocation: (643, 404)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:31] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element:By.cssSelector: [data-qa="signup-button"]&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['companyName']&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipCode']&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:31] [main] [com.automationexercices.utils.Actions.ElementActions] - initialLocation: (175, 323)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:32] [main] [com.automationexercices.utils.Actions.ElementActions] - finalLocation: (175, 323)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:32] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element:By.cssSelector: input[name='title'][value='Mr']&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:32] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.id: password&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:33] [main] [com.automationexercices.utils.Actions.ElementActions] - Selected value from dropdown: By.id: days&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:33] [main] [com.automationexercices.utils.Actions.ElementActions] - Selected value from dropdown: By.id: months&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:34] [main] [com.automationexercices.utils.Actions.ElementActions] - Selected value from dropdown: By.id: years&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:34] [main] [com.automationexercices.utils.Actions.ElementActions] - initialLocation: (155, 672)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:34] [main] [com.automationexercices.utils.Actions.ElementActions] - finalLocation: (155, 672)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:34] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element:By.id: newsletter&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:34] [main] [com.automationexercices.utils.Actions.ElementActions] - initialLocation: (155, 697)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:34] [main] [com.automationexercices.utils.Actions.ElementActions] - finalLocation: (155, 697)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:34] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element:By.id: optin&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:35] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.id: first_name&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:35] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.id: last_name&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:35] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.id: company&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:36] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.id: address1&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:36] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.id: address2&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:37] [main] [com.automationexercices.utils.Actions.ElementActions] - Selected value from dropdown: By.id: country&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:37] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.id: state&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:37] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.id: city&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:37] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.id: zipcode&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:38] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.id: mobile_number&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:38] [main] [com.automationexercices.utils.Actions.ElementActions] - initialLocation: (155, 1602)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:38] [main] [com.automationexercices.utils.Actions.ElementActions] - finalLocation: (155, 1602)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:40] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element:By.cssSelector: [data-qa='create-account']&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:43] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']&amp#27;[m
+&amp#27;[32;1m[DEBUG] - [01-09-2026 15:28:43] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:50] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 404, "message": "Account not found!"}</body>
+</html>&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:53] [main] [com.automationexercices.listeners.TestNGListeners] - TestCase: validSignUpTCpassed&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Sep 01, 2026 3:28:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 152
+log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.BasicClientConnectionManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyErrorMessageWhenAccountCreatedBefore" classname="com.automationexercices.tests.ui.RegisterTest" time="5.734">
+    <system-out><![CDATA[&amp#27;[34m[INFO] - [01-09-2026 15:28:54] [main] [com.automationexercices.drivers.GUIDriver] - Initializing driver for browser: edge&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:28:54] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser;EDGE&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:11] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com/&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:21] [main] [com.automationexercices.utils.Actions.BrowserActions] - No extension tab opened, continuing test...&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:21] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case verifyErrorMessageWhenAccountCreatedBefore started&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:22] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:23] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com//login&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:23] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.cssSelector: [data-qa="signup-name"]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:24] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.cssSelector: [data-qa="signup-email"]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:24] [main] [com.automationexercices.utils.Actions.ElementActions] - initialLocation: (643, 404)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:24] [main] [com.automationexercices.utils.Actions.ElementActions] - finalLocation: (643, 404)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:25] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element:By.cssSelector: [data-qa="signup-button"]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:25] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.cssSelector: .signup-form p&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:27] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:27] [main] [com.automationexercices.listeners.TestNGListeners] - TestCase: verifyErrorMessageWhenAccountCreatedBeforepassed&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Sep 01, 2026 3:29:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="inValidLoginUsingInValidEmailTC" classname="com.automationexercices.tests.ui.LoginTest" time="6.761">
+    <system-out><![CDATA[&amp#27;[34m[INFO] - [01-09-2026 15:29:27] [main] [com.automationexercices.drivers.GUIDriver] - Initializing driver for browser: edge&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:27] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser;EDGE&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:35] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com/&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:46] [main] [com.automationexercices.utils.Actions.BrowserActions] - No extension tab opened, continuing test...&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:46] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case inValidLoginUsingInValidEmailTC started&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:48] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:49] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com//login&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:50] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.cssSelector: [data-qa="login-email"]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:50] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.cssSelector: [data-qa="login-password"]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:50] [main] [com.automationexercices.utils.Actions.ElementActions] - initialLocation: (155, 417)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:50] [main] [com.automationexercices.utils.Actions.ElementActions] - finalLocation: (155, 417)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:50] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element:By.cssSelector: [data-qa="login-button"]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:51] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.cssSelector: .login-form p&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:52] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:52] [main] [com.automationexercices.listeners.TestNGListeners] - TestCase: inValidLoginUsingInValidEmailTCpassed&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Sep 01, 2026 3:29:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="inValidLoginUsingInValidPassWordTC" classname="com.automationexercices.tests.ui.LoginTest" time="5.22">
+    <system-out><![CDATA[&amp#27;[34m[INFO] - [01-09-2026 15:29:53] [main] [com.automationexercices.drivers.GUIDriver] - Initializing driver for browser: edge&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:29:53] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser;EDGE&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:03] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com/&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:13] [main] [com.automationexercices.utils.Actions.BrowserActions] - No extension tab opened, continuing test...&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:13] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case inValidLoginUsingInValidPassWordTC started&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:14] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:15] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com//login&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:16] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.cssSelector: [data-qa="login-email"]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:16] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.cssSelector: [data-qa="login-password"]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:16] [main] [com.automationexercices.utils.Actions.ElementActions] - initialLocation: (155, 417)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:16] [main] [com.automationexercices.utils.Actions.ElementActions] - finalLocation: (155, 417)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:16] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element:By.cssSelector: [data-qa="login-button"]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:17] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.cssSelector: .login-form p&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:18] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:18] [main] [com.automationexercices.listeners.TestNGListeners] - TestCase: inValidLoginUsingInValidPassWordTCpassed&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Sep 01, 2026 3:30:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="validLoginTC" classname="com.automationexercices.tests.ui.LoginTest" time="7.027">
+    <system-out><![CDATA[&amp#27;[34m[INFO] - [01-09-2026 15:30:19] [main] [com.automationexercices.drivers.GUIDriver] - Initializing driver for browser: edge&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:19] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser;EDGE&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:28] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com/&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:38] [main] [com.automationexercices.utils.Actions.BrowserActions] - No extension tab opened, continuing test...&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:38] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case validLoginTC started&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:39] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:40] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com//login&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:41] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.cssSelector: [data-qa="login-email"]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:41] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.cssSelector: [data-qa="login-password"]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:41] [main] [com.automationexercices.utils.Actions.ElementActions] - initialLocation: (155, 417)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:41] [main] [com.automationexercices.utils.Actions.ElementActions] - finalLocation: (155, 417)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:42] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element:By.cssSelector: [data-qa="login-button"]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:44] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.tagName: b&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:44] [main] [com.automationexercices.pages.components.NavigationBarComponent] - Actual User Name: Automation_Test&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:45] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:45] [main] [com.automationexercices.listeners.TestNGListeners] - TestCase: validLoginTCpassed&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Sep 01, 2026 3:30:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="addProductToCartWithOutLoginIn" classname="com.automationexercices.tests.ui.ProductsTest" time="7.887">
+    <system-out><![CDATA[&amp#27;[34m[INFO] - [01-09-2026 15:30:46] [main] [com.automationexercices.drivers.GUIDriver] - Initializing driver for browser: edge&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:46] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser;EDGE&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:30:54] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com/&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:04] [main] [com.automationexercices.utils.Actions.BrowserActions] - No extension tab opened, continuing test...&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:04] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case addProductToCartWithOutLoginIn started&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:05] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com//products&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:11] [main] [com.automationexercices.utils.Actions.ElementActions] - Hovered on element:By.xpath: //div[@class='product-image-wrapper'][.//p[contains(text(), 'Men Tshirt')]]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:11] [main] [com.automationexercices.utils.Actions.ElementActions] - initialLocation: (723, 508)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:11] [main] [com.automationexercices.utils.Actions.ElementActions] - finalLocation: (723, 508)&amp#27;[m
+&amp#27;[31m[ERROR] - [01-09-2026 15:31:11] [main] [com.automationexercices.utils.Actions.ElementActions] - Normal click failed for: By.xpath: //div[@class='product-overlay']//p[.='Men Tshirt']/following-sibling::a | Reason: element not interactable
+  (Session info: MicrosoftEdge=152.0.4191.53)
+Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b89daee553017614e5ad96f3c0f51882, clickElement {id=f.8A38A83ADEB5F3C4B56F5D649471DFCC.d.FB01427767FB3DF168E49A70D585751F.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 152.0.4191.53, fedcm:accounts: true, goog:processID: 23676, ms:edgeOptions: {debuggerAddress: localhost:50807}, msedge: {msedgedriverVersion: 152.0.4191.53 (4ee8983fdce2..., userDataDir: C:\Users\ah032\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50807/devtoo..., se:cdpVersion: 152.0.4191.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (b89daee553017614e5ad96f3c0f51882)] -> xpath: //div[@class='product-overlay']//p[.='Men Tshirt']/following-sibling::a]
+Session ID: b89daee553017614e5ad96f3c0f51882&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:11] [main] [com.automationexercices.utils.Actions.ElementActions] - Attempting JavaScript Click as fallback...&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:11] [main] [com.automationexercices.utils.Actions.ElementActions] - JS Click succeeded on element: By.xpath: //div[@class='product-overlay']//p[.='Men Tshirt']/following-sibling::a&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:11] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //div[@class='modal-body']//p&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:11] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //div[@class='modal-body']//p&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:11] [main] [com.automationexercices.pages.components.ProductsPage] - Validating item added label: Your product has been added to cart.&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:12] [main] [com.automationexercices.listeners.TestNGListeners] - TestCase: addProductToCartWithOutLoginInpassed&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Sep 01, 2026 3:30:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="searchForProductsWithOutLogin" classname="com.automationexercices.tests.ui.ProductsTest" time="2.682">
+    <system-out><![CDATA[&amp#27;[34m[INFO] - [01-09-2026 15:31:13] [main] [com.automationexercices.drivers.GUIDriver] - Initializing driver for browser: edge&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:13] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser;EDGE&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:22] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com/&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:32] [main] [com.automationexercices.utils.Actions.BrowserActions] - No extension tab opened, continuing test...&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:32] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case searchForProductsWithOutLogin started&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:33] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com//products&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:34] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.id: search_product&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:34] [main] [com.automationexercices.utils.Actions.ElementActions] - initialLocation: (462, 453)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:34] [main] [com.automationexercices.utils.Actions.ElementActions] - finalLocation: (462, 453)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:34] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element:By.id: submit_search&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:35] [main] [com.automationexercices.listeners.TestNGListeners] - TestCase: searchForProductsWithOutLoginpassed&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Sep 01, 2026 3:31:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="verifyProductDetailsOnCartWithOutLogin" classname="com.automationexercices.tests.ui.CartTest" time="11.029">
+    <system-out><![CDATA[&amp#27;[34m[INFO] - [01-09-2026 15:31:37] [main] [com.automationexercices.drivers.GUIDriver] - Initializing driver for browser: edge&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:37] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser;EDGE&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:46] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com/&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:56] [main] [com.automationexercices.utils.Actions.BrowserActions] - No extension tab opened, continuing test...&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:56] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case verifyProductDetailsOnCartWithOutLogin started&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:31:58] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com//products&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:03] [main] [com.automationexercices.utils.Actions.ElementActions] - Hovered on element:By.xpath: //div[@class='product-image-wrapper'][.//p[contains(text(), 'Men Tshirt')]]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:04] [main] [com.automationexercices.utils.Actions.ElementActions] - initialLocation: (723, 508)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:04] [main] [com.automationexercices.utils.Actions.ElementActions] - finalLocation: (723, 508)&amp#27;[m
+&amp#27;[31m[ERROR] - [01-09-2026 15:32:04] [main] [com.automationexercices.utils.Actions.ElementActions] - Normal click failed for: By.xpath: //div[@class='product-overlay']//p[.='Men Tshirt']/following-sibling::a | Reason: element not interactable
+  (Session info: MicrosoftEdge=152.0.4191.53)
+Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a6f99ff14a525593dc19ac493336b2bd, clickElement {id=f.C49D57E04F8FD2D527A69B6FFBA7B2F5.d.125E9D83EED2D5A6B0943E28F0D22BA2.e.19}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 152.0.4191.53, fedcm:accounts: true, goog:processID: 21516, ms:edgeOptions: {debuggerAddress: localhost:58799}, msedge: {msedgedriverVersion: 152.0.4191.53 (4ee8983fdce2..., userDataDir: C:\Users\ah032\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58799/devtoo..., se:cdpVersion: 152.0.4191.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a6f99ff14a525593dc19ac493336b2bd)] -> xpath: //div[@class='product-overlay']//p[.='Men Tshirt']/following-sibling::a]
+Session ID: a6f99ff14a525593dc19ac493336b2bd&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:04] [main] [com.automationexercices.utils.Actions.ElementActions] - Attempting JavaScript Click as fallback...&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:04] [main] [com.automationexercices.utils.Actions.ElementActions] - JS Click succeeded on element: By.xpath: //div[@class='product-overlay']//p[.='Men Tshirt']/following-sibling::a&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:04] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //div[@class='modal-body']//p&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:04] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //div[@class='modal-body']//p&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:05] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //div[@class='modal-body']//p&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:05] [main] [com.automationexercices.pages.components.ProductsPage] - Validating item added label: Your product has been added to cart.&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:05] [main] [com.automationexercices.utils.Actions.ElementActions] - initialLocation: (664, 30)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:05] [main] [com.automationexercices.utils.Actions.ElementActions] - finalLocation: (664, 30)&amp#27;[m
+&amp#27;[31m[ERROR] - [01-09-2026 15:32:06] [main] [com.automationexercices.utils.Actions.ElementActions] - Normal click failed for: By.cssSelector: a[href='/view_cart'] | Reason: element click intercepted: Element <a href="/view_cart" data--h-bstatus="0OBSERVED">...</a> is not clickable at point (687, 10). Other element would receive the click: <div id="cartModal" class="modal show" data--h-bstatus="0OBSERVED">...</div>
+  (Session info: MicrosoftEdge=152.0.4191.53)
+Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a6f99ff14a525593dc19ac493336b2bd, clickElement {id=f.C49D57E04F8FD2D527A69B6FFBA7B2F5.d.125E9D83EED2D5A6B0943E28F0D22BA2.e.21}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 152.0.4191.53, fedcm:accounts: true, goog:processID: 21516, ms:edgeOptions: {debuggerAddress: localhost:58799}, msedge: {msedgedriverVersion: 152.0.4191.53 (4ee8983fdce2..., userDataDir: C:\Users\ah032\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58799/devtoo..., se:cdpVersion: 152.0.4191.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a6f99ff14a525593dc19ac493336b2bd)] -> css selector: a[href='/view_cart']]
+Session ID: a6f99ff14a525593dc19ac493336b2bd&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:06] [main] [com.automationexercices.utils.Actions.ElementActions] - Attempting JavaScript Click as fallback...&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:07] [main] [com.automationexercices.utils.Actions.ElementActions] - JS Click succeeded on element: By.cssSelector: a[href='/view_cart']&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:07] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: (//h4 /a[.='Men Tshirt'])[1]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:07] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: (//h4 /a[.='Men Tshirt'] //following::td[@class='cart_price'] /p)[1]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:07] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: (//h4 /a[.='Men Tshirt'] //following::td[@class='cart_quantity'] /button)[1]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:07] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: (//h4 /a[.='Men Tshirt'] //following::td[@class='cart_total'] /p)[1]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:07] [main] [com.automationexercices.listeners.TestNGListeners] - TestCase: verifyProductDetailsOnCartWithOutLoginpassed&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Sep 01, 2026 3:31:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="registerNewAccount" classname="com.automationexercices.tests.ui.CheckOutTest" time="1.173">
+    <system-out><![CDATA[&amp#27;[34m[INFO] - [01-09-2026 15:32:08] [main] [com.automationexercices.drivers.GUIDriver] - Initializing driver for browser: edge&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:08] [main] [com.automationexercices.drivers.GUIDriver] - Starting driver for browser;EDGE&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:19] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com/&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:29] [main] [com.automationexercices.utils.Actions.BrowserActions] - No extension tab opened, continuing test...&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:29] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case registerNewAccount started&amp#27;[m
+&amp#27;[31m[ERROR] - [01-09-2026 15:32:29] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading json file for path: zipcode No results for path: $['zipcode']&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:30] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:30] [main] [com.automationexercices.listeners.TestNGListeners] - TestCase: registerNewAccountpassed&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Sep 01, 2026 3:32:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 152, returning the closest version; found: 151; Please update to a Selenium version that supports CDP version 152
+]]></system-err>
+  </testcase>
+  <testcase name="loginToAccount" classname="com.automationexercices.tests.ui.CheckOutTest" time="3.523">
+    <system-out><![CDATA[&amp#27;[34m[INFO] - [01-09-2026 15:32:30] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case loginToAccount started&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:31] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com//login&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:31] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.cssSelector: [data-qa="login-email"]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:31] [main] [com.automationexercices.utils.Actions.ElementActions] - Typed to element:By.cssSelector: [data-qa="login-password"]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:31] [main] [com.automationexercices.utils.Actions.ElementActions] - initialLocation: (155, 417)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:31] [main] [com.automationexercices.utils.Actions.ElementActions] - finalLocation: (155, 417)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:31] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element:By.cssSelector: [data-qa="login-button"]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:33] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.tagName: b&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:33] [main] [com.automationexercices.pages.components.NavigationBarComponent] - Actual User Name: Automation_Test&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:33] [main] [com.automationexercices.listeners.TestNGListeners] - TestCase: loginToAccountpassed&amp#27;[m
+]]></system-out>
+  </testcase>
+  <testcase name="addProductToCart" classname="com.automationexercices.tests.ui.CheckOutTest" time="9.142">
+    <system-out><![CDATA[&amp#27;[34m[INFO] - [01-09-2026 15:32:34] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case addProductToCart started&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:34] [main] [com.automationexercices.utils.Actions.BrowserActions] - Navigated to: https://www.automationexercise.com//products&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:40] [main] [com.automationexercices.utils.Actions.ElementActions] - Hovered on element:By.xpath: //div[@class='product-image-wrapper'][.//p[contains(text(), 'Blue Top')]]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:40] [main] [com.automationexercices.utils.Actions.ElementActions] - initialLocation: (436, 508)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:40] [main] [com.automationexercices.utils.Actions.ElementActions] - finalLocation: (436, 508)&amp#27;[m
+&amp#27;[31m[ERROR] - [01-09-2026 15:32:40] [main] [com.automationexercices.utils.Actions.ElementActions] - Normal click failed for: By.xpath: //div[@class='product-overlay']//p[.='Blue Top']/following-sibling::a | Reason: element not interactable
+  (Session info: MicrosoftEdge=152.0.4191.53)
+Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d6b54ec5f3132c0e7c299b418d52f44c, clickElement {id=f.9A3EE7CC9088B6E3B8228AD5B8AB6C4C.d.2F87E32DAE964E4AEF05A2E7AFCC78AF.e.86}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 152.0.4191.53, fedcm:accounts: true, goog:processID: 10852, ms:edgeOptions: {debuggerAddress: localhost:56854}, msedge: {msedgedriverVersion: 152.0.4191.53 (4ee8983fdce2..., userDataDir: C:\Users\ah032\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56854/devtoo..., se:cdpVersion: 152.0.4191.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (d6b54ec5f3132c0e7c299b418d52f44c)] -> xpath: //div[@class='product-overlay']//p[.='Blue Top']/following-sibling::a]
+Session ID: d6b54ec5f3132c0e7c299b418d52f44c&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:40] [main] [com.automationexercices.utils.Actions.ElementActions] - Attempting JavaScript Click as fallback...&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:40] [main] [com.automationexercices.utils.Actions.ElementActions] - JS Click succeeded on element: By.xpath: //div[@class='product-overlay']//p[.='Blue Top']/following-sibling::a&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:40] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //div[@class='modal-body']//p&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:40] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //div[@class='modal-body']//p&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:40] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //div[@class='modal-body']//p&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:40] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //div[@class='modal-body']//p&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:40] [main] [com.automationexercices.pages.components.ProductsPage] - Validating item added label: Your product has been added to cart.&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:40] [main] [com.automationexercices.utils.Actions.ElementActions] - initialLocation: (664, 30)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:41] [main] [com.automationexercices.utils.Actions.ElementActions] - finalLocation: (664, 30)&amp#27;[m
+&amp#27;[31m[ERROR] - [01-09-2026 15:32:42] [main] [com.automationexercices.utils.Actions.ElementActions] - Normal click failed for: By.cssSelector: a[href='/view_cart'] | Reason: element click intercepted: Element <a href="/view_cart" data--h-bstatus="0OBSERVED">...</a> is not clickable at point (687, 10). Other element would receive the click: <div id="cartModal" class="modal show" data--h-bstatus="0OBSERVED">...</div>
+  (Session info: MicrosoftEdge=152.0.4191.53)
+Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d6b54ec5f3132c0e7c299b418d52f44c, clickElement {id=f.9A3EE7CC9088B6E3B8228AD5B8AB6C4C.d.2F87E32DAE964E4AEF05A2E7AFCC78AF.e.88}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 152.0.4191.53, fedcm:accounts: true, goog:processID: 10852, ms:edgeOptions: {debuggerAddress: localhost:56854}, msedge: {msedgedriverVersion: 152.0.4191.53 (4ee8983fdce2..., userDataDir: C:\Users\ah032\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56854/devtoo..., se:cdpVersion: 152.0.4191.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (d6b54ec5f3132c0e7c299b418d52f44c)] -> css selector: a[href='/view_cart']]
+Session ID: d6b54ec5f3132c0e7c299b418d52f44c&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:42] [main] [com.automationexercices.utils.Actions.ElementActions] - Attempting JavaScript Click as fallback...&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:42] [main] [com.automationexercices.utils.Actions.ElementActions] - JS Click succeeded on element: By.cssSelector: a[href='/view_cart']&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:42] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: (//h4 /a[.='Blue Top'])[1]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:42] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: (//h4 /a[.='Blue Top'] //following::td[@class='cart_price'] /p)[1]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:43] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: (//h4 /a[.='Blue Top'] //following::td[@class='cart_quantity'] /button)[1]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:43] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: (//h4 /a[.='Blue Top'] //following::td[@class='cart_total'] /p)[1]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:43] [main] [com.automationexercices.listeners.TestNGListeners] - TestCase: addProductToCartpassed&amp#27;[m
+]]></system-out>
+  </testcase>
+  <testcase name="checkout" classname="com.automationexercices.tests.ui.CheckOutTest" time="3.458">
+    <system-out><![CDATA[&amp#27;[34m[INFO] - [01-09-2026 15:32:43] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case checkout started&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:43] [main] [com.automationexercices.utils.Actions.ElementActions] - initialLocation: (973, 224)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:43] [main] [com.automationexercices.utils.Actions.ElementActions] - finalLocation: (973, 224)&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:44] [main] [com.automationexercices.utils.Actions.ElementActions] - Clicked on element:By.xpath: //a[.='Proceed To Checkout']&amp#27;[m
+&amp#27;[31m[ERROR] - [01-09-2026 15:32:44] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading json file for path: zipcode No results for path: $['zipcode']&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:45] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:45] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][1]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:45] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:45] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][3]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:45] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //ul[@id='address_delivery'] /li[@class='address_city address_state_name address_postcode']&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:45] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //ul[@id='address_delivery'] /li[@class='address_country_name']&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:45] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //ul[@id='address_delivery'] /li[@class='address_phone']&amp#27;[m
+&amp#27;[31m[ERROR] - [01-09-2026 15:32:45] [main] [com.automationexercices.utils.dataReader.JsonReader] - Error reading json file for path: zipcode No results for path: $['zipcode']&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:45] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //ul[@id='address_delivery'] /li[@class='address_firstname address_lastname']&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:45] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][1]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:45] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //ul[@id='address_delivery'] /li[@class='address_address1 address_address2'][2]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:45] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //ul[@id='address_invoice'] /li[@class='address_address1 address_address2'][3]&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:46] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //ul[@id='address_invoice'] /li[@class='address_city address_state_name address_postcode']&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:46] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //ul[@id='address_invoice'] /li[@class='address_country_name']&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:46] [main] [com.automationexercices.utils.Actions.ElementActions] - Got text from element:By.xpath: //ul[@id='address_invoice'] /li[@class='address_phone']&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:46] [main] [com.automationexercices.listeners.TestNGListeners] - TestCase: checkoutpassed&amp#27;[m
+]]></system-out>
+  </testcase>
+  <testcase name="deleteAccountAsPostCondition" classname="com.automationexercices.tests.ui.CheckOutTest" time="1.068">
+    <system-out><![CDATA[&amp#27;[34m[INFO] - [01-09-2026 15:32:46] [main] [com.automationexercices.listeners.TestNGListeners] - Test Case deleteAccountAsPostCondition started&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:47] [main] [com.automationexercices.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>&amp#27;[m
+&amp#27;[34m[INFO] - [01-09-2026 15:32:47] [main] [com.automationexercices.listeners.TestNGListeners] - TestCase: deleteAccountAsPostConditionpassed&amp#27;[m
+]]></system-out>
+  </testcase>
+</testsuite>

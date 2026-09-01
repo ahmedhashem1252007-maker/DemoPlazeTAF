@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-01T15:28:05 EEST" name="Register Suite" finished-at="2026-09-01T15:32:48 EEST" duration-ms="283137">
+    <groups>
+    </groups>
+    <test started-at="2026-09-01T15:28:05 EEST" name="Register Test" finished-at="2026-09-01T15:32:48 EEST" duration-ms="283137">
+      <class name="com.automationexercices.tests.ui.ProductsTest">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.automationexercices.tests.ui.ProductsTest@27da994b]" started-at="2026-09-01T15:30:46 EEST" name="preCondition" finished-at="2026-09-01T15:30:46 EEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercices.tests.ui.ProductsTest@27da994b]" started-at="2026-09-01T15:30:46 EEST" name="setUp" finished-at="2026-09-01T15:31:04 EEST" duration-ms="17710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductToCartWithOutLoginIn()[pri:0, instance:com.automationexercices.tests.ui.ProductsTest@27da994b]" started-at="2026-09-01T15:31:04 EEST" name="addProductToCartWithOutLoginIn" finished-at="2026-09-01T15:31:11 EEST" duration-ms="7760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCartWithOutLoginIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercices.tests.ui.ProductsTest@27da994b]" started-at="2026-09-01T15:31:12 EEST" name="tearDown" finished-at="2026-09-01T15:31:13 EEST" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.automationexercices.tests.ui.ProductsTest@27da994b]" started-at="2026-09-01T15:31:13 EEST" name="preCondition" finished-at="2026-09-01T15:31:13 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercices.tests.ui.ProductsTest@27da994b]" started-at="2026-09-01T15:31:13 EEST" name="setUp" finished-at="2026-09-01T15:31:32 EEST" duration-ms="19267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchForProductsWithOutLogin()[pri:0, instance:com.automationexercices.tests.ui.ProductsTest@27da994b]" started-at="2026-09-01T15:31:32 EEST" name="searchForProductsWithOutLogin" finished-at="2026-09-01T15:31:34 EEST" duration-ms="2558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForProductsWithOutLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercices.tests.ui.ProductsTest@27da994b]" started-at="2026-09-01T15:31:35 EEST" name="tearDown" finished-at="2026-09-01T15:31:37 EEST" duration-ms="2247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercices.tests.ui.ProductsTest -->
+      <class name="com.automationexercices.tests.ui.CheckOutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercices.tests.ui.CheckOutTest@73e4bb60]" started-at="2026-09-01T15:32:08 EEST" name="setUp" finished-at="2026-09-01T15:32:29 EEST" duration-ms="20476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerNewAccount()[pri:0, instance:com.automationexercices.tests.ui.CheckOutTest@73e4bb60]" started-at="2026-09-01T15:32:29 EEST" name="registerNewAccount" finished-at="2026-09-01T15:32:30 EEST" duration-ms="1047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewAccount -->
+        <test-method signature="loginToAccount()[pri:0, instance:com.automationexercices.tests.ui.CheckOutTest@73e4bb60]" started-at="2026-09-01T15:32:30 EEST" name="loginToAccount" finished-at="2026-09-01T15:32:33 EEST" depends-on-methods="com.automationexercices.tests.ui.CheckOutTest.registerNewAccount" duration-ms="3423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAccount -->
+        <test-method signature="addProductToCart()[pri:0, instance:com.automationexercices.tests.ui.CheckOutTest@73e4bb60]" started-at="2026-09-01T15:32:33 EEST" name="addProductToCart" finished-at="2026-09-01T15:32:43 EEST" depends-on-methods="com.automationexercices.tests.ui.CheckOutTest.loginToAccount, com.automationexercices.tests.ui.CheckOutTest.registerNewAccount" duration-ms="9056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method signature="checkout()[pri:0, instance:com.automationexercices.tests.ui.CheckOutTest@73e4bb60]" started-at="2026-09-01T15:32:43 EEST" name="checkout" finished-at="2026-09-01T15:32:46 EEST" depends-on-methods="com.automationexercices.tests.ui.CheckOutTest.loginToAccount, com.automationexercices.tests.ui.CheckOutTest.registerNewAccount, com.automationexercices.tests.ui.CheckOutTest.addProductToCart" duration-ms="3394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method signature="deleteAccountAsPostCondition()[pri:0, instance:com.automationexercices.tests.ui.CheckOutTest@73e4bb60]" started-at="2026-09-01T15:32:46 EEST" name="deleteAccountAsPostCondition" finished-at="2026-09-01T15:32:47 EEST" depends-on-methods="com.automationexercices.tests.ui.CheckOutTest.loginToAccount, com.automationexercices.tests.ui.CheckOutTest.registerNewAccount, com.automationexercices.tests.ui.CheckOutTest.addProductToCart, com.automationexercices.tests.ui.CheckOutTest.checkout" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAccountAsPostCondition -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercices.tests.ui.CheckOutTest@73e4bb60]" started-at="2026-09-01T15:32:47 EEST" name="tearDown" finished-at="2026-09-01T15:32:48 EEST" duration-ms="1027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercices.tests.ui.CheckOutTest -->
+      <class name="com.automationexercices.tests.ui.CartTest">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.automationexercices.tests.ui.CartTest@70f148dc]" started-at="2026-09-01T15:31:37 EEST" name="preCondition" finished-at="2026-09-01T15:31:37 EEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercices.tests.ui.CartTest@70f148dc]" started-at="2026-09-01T15:31:37 EEST" name="setUp" finished-at="2026-09-01T15:31:56 EEST" duration-ms="19447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductDetailsOnCartWithOutLogin()[pri:0, instance:com.automationexercices.tests.ui.CartTest@70f148dc]" started-at="2026-09-01T15:31:56 EEST" name="verifyProductDetailsOnCartWithOutLogin" finished-at="2026-09-01T15:32:07 EEST" duration-ms="10921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDetailsOnCartWithOutLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercices.tests.ui.CartTest@70f148dc]" started-at="2026-09-01T15:32:07 EEST" name="tearDown" finished-at="2026-09-01T15:32:08 EEST" duration-ms="947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercices.tests.ui.CartTest -->
+      <class name="com.automationexercices.tests.ui.RegisterTest">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.automationexercices.tests.ui.RegisterTest@150fc7a7]" started-at="2026-09-01T15:28:05 EEST" name="preCondition" finished-at="2026-09-01T15:28:05 EEST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercices.tests.ui.RegisterTest@150fc7a7]" started-at="2026-09-01T15:28:05 EEST" name="setUp" finished-at="2026-09-01T15:28:27 EEST" duration-ms="21761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validSignUpTC()[pri:0, instance:com.automationexercices.tests.ui.RegisterTest@150fc7a7]" started-at="2026-09-01T15:28:27 EEST" name="validSignUpTC" finished-at="2026-09-01T15:28:53 EEST" duration-ms="25760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSignUpTC -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercices.tests.ui.RegisterTest@150fc7a7]" started-at="2026-09-01T15:28:53 EEST" name="tearDown" finished-at="2026-09-01T15:28:54 EEST" duration-ms="945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.automationexercices.tests.ui.RegisterTest@150fc7a7]" started-at="2026-09-01T15:28:54 EEST" name="preCondition" finished-at="2026-09-01T15:28:54 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercices.tests.ui.RegisterTest@150fc7a7]" started-at="2026-09-01T15:28:54 EEST" name="setUp" finished-at="2026-09-01T15:29:21 EEST" duration-ms="26826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyErrorMessageWhenAccountCreatedBefore()[pri:0, instance:com.automationexercices.tests.ui.RegisterTest@150fc7a7]" started-at="2026-09-01T15:29:21 EEST" name="verifyErrorMessageWhenAccountCreatedBefore" finished-at="2026-09-01T15:29:27 EEST" duration-ms="5585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageWhenAccountCreatedBefore -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercices.tests.ui.RegisterTest@150fc7a7]" started-at="2026-09-01T15:29:27 EEST" name="tearDown" finished-at="2026-09-01T15:29:27 EEST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercices.tests.ui.RegisterTest -->
+      <class name="com.automationexercices.tests.ui.LoginTest">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.automationexercices.tests.ui.LoginTest@24a4e2c5]" started-at="2026-09-01T15:29:27 EEST" name="preCondition" finished-at="2026-09-01T15:29:27 EEST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercices.tests.ui.LoginTest@24a4e2c5]" started-at="2026-09-01T15:29:27 EEST" name="setUp" finished-at="2026-09-01T15:29:46 EEST" duration-ms="18086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="inValidLoginUsingInValidEmailTC()[pri:0, instance:com.automationexercices.tests.ui.LoginTest@24a4e2c5]" started-at="2026-09-01T15:29:46 EEST" name="inValidLoginUsingInValidEmailTC" finished-at="2026-09-01T15:29:52 EEST" duration-ms="6623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLoginUsingInValidEmailTC -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercices.tests.ui.LoginTest@24a4e2c5]" started-at="2026-09-01T15:29:52 EEST" name="tearDown" finished-at="2026-09-01T15:29:53 EEST" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.automationexercices.tests.ui.LoginTest@24a4e2c5]" started-at="2026-09-01T15:29:53 EEST" name="preCondition" finished-at="2026-09-01T15:29:53 EEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercices.tests.ui.LoginTest@24a4e2c5]" started-at="2026-09-01T15:29:53 EEST" name="setUp" finished-at="2026-09-01T15:30:13 EEST" duration-ms="20038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="inValidLoginUsingInValidPassWordTC()[pri:0, instance:com.automationexercices.tests.ui.LoginTest@24a4e2c5]" started-at="2026-09-01T15:30:13 EEST" name="inValidLoginUsingInValidPassWordTC" finished-at="2026-09-01T15:30:18 EEST" duration-ms="5095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLoginUsingInValidPassWordTC -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercices.tests.ui.LoginTest@24a4e2c5]" started-at="2026-09-01T15:30:18 EEST" name="tearDown" finished-at="2026-09-01T15:30:19 EEST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.automationexercices.tests.ui.LoginTest@24a4e2c5]" started-at="2026-09-01T15:30:19 EEST" name="preCondition" finished-at="2026-09-01T15:30:19 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automationexercices.tests.ui.LoginTest@24a4e2c5]" started-at="2026-09-01T15:30:19 EEST" name="setUp" finished-at="2026-09-01T15:30:38 EEST" duration-ms="18813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTC()[pri:0, instance:com.automationexercices.tests.ui.LoginTest@24a4e2c5]" started-at="2026-09-01T15:30:38 EEST" name="validLoginTC" finished-at="2026-09-01T15:30:45 EEST" duration-ms="6924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTC -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationexercices.tests.ui.LoginTest@24a4e2c5]" started-at="2026-09-01T15:30:45 EEST" name="tearDown" finished-at="2026-09-01T15:30:46 EEST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationexercices.tests.ui.LoginTest -->
+    </test> <!-- Register Test -->
+  </suite> <!-- Register Suite -->
+</testng-results>

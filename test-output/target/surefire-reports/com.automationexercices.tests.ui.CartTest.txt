@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.automationexercices.tests.ui.CartTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 45.55 s -- in com.automationexercices.tests.ui.CartTest
