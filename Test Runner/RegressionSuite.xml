@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Register Suite">
+    <test name="Register Test">
+        <classes>
+            <class name="com.automationexercices.tests.ui.RegisterTest"/>
+            <class name="com.automationexercices.tests.ui.LoginTest"/>
+            <class name="com.automationexercices.tests.ui.ProductsTest"/>
+            <class name="com.automationexercices.tests.ui.CartTest"/>
+            <class name="com.automationexercices.tests.ui.CheckOutTest"/>
+        </classes>
+    </test>
+</suite>
